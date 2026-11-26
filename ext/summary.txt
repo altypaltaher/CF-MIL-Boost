@@ -1,0 +1,250 @@
+         set    level                    arm   n     mcc  mcc_sd     f1m     auc  auc_sd      lo      hi       p  wins
+0   main_bin   window           CF-MIL-Boost  10  0.6691  0.0254  0.8339  0.9222  0.0106     NaN     NaN     NaN   NaN
+1   main_bin   window           win_LightGBM  10  0.5521  0.0229  0.7683  0.8590  0.0135     NaN     NaN     NaN   NaN
+2   main_bin   window            win_XGBoost  10  0.5500  0.0240  0.7677  0.8601  0.0138     NaN     NaN     NaN   NaN
+3   main_bin   window  delta_vs_win_LightGBM  10  0.1170     NaN     NaN     NaN     NaN  0.0861  0.1479  0.0000  10.0
+4   main_bin   window   delta_vs_win_XGBoost  10  0.1192     NaN     NaN     NaN     NaN  0.0819  0.1564  0.0000  10.0
+5   main_bin  capture           CF-MIL-Boost  10  0.7868  0.0246  0.8921  0.9651  0.0070     NaN     NaN     NaN   NaN
+6   main_bin  capture           win_LightGBM  10  0.6405  0.0406  0.7945  0.9448  0.0097     NaN     NaN     NaN   NaN
+7   main_bin  capture            win_XGBoost  10  0.6302  0.0492  0.7900  0.9476  0.0134     NaN     NaN     NaN   NaN
+8   main_bin  capture  delta_vs_win_LightGBM  10  0.1463     NaN     NaN     NaN     NaN  0.0812  0.2115  0.0007  10.0
+9   main_bin  capture   delta_vs_win_XGBoost  10  0.1566     NaN     NaN     NaN     NaN  0.0796  0.2335  0.0013  10.0
+10  main_cat   window           CF-MIL-Boost   5  0.6626  0.0222  0.7048  0.9425  0.0048     NaN     NaN     NaN   NaN
+11  main_cat   window           win_LightGBM   5  0.5084  0.0247  0.5559  0.8570  0.0037     NaN     NaN     NaN   NaN
+12  main_cat   window            win_XGBoost   5  0.5165  0.0248  0.5618  0.8614  0.0067     NaN     NaN     NaN   NaN
+13  main_cat   window  delta_vs_win_LightGBM   5  0.1542     NaN     NaN     NaN     NaN  0.1084  0.2000  0.0007   5.0
+14  main_cat   window   delta_vs_win_XGBoost   5  0.1461     NaN     NaN     NaN     NaN  0.0804  0.2118  0.0035   5.0
+15  main_cat  capture           CF-MIL-Boost   5  0.7786  0.0222  0.7858  0.9721  0.0038     NaN     NaN     NaN   NaN
+16  main_cat  capture           win_LightGBM   5  0.5702  0.0540  0.5655  0.9270  0.0099     NaN     NaN     NaN   NaN
+17  main_cat  capture            win_XGBoost   5  0.5671  0.0694  0.5552  0.9310  0.0112     NaN     NaN     NaN   NaN
+18  main_cat  capture  delta_vs_win_LightGBM   5  0.2084     NaN     NaN     NaN     NaN  0.0975  0.3193  0.0064   5.0
+19  main_cat  capture   delta_vs_win_XGBoost   5  0.2116     NaN     NaN     NaN     NaN  0.0820  0.3412  0.0106   5.0
+20   lfo_bin   window           CF-MIL-Boost   5  0.5794  0.1304  0.7879  0.8855  0.0588     NaN     NaN     NaN   NaN
+21   lfo_bin   window           win_LightGBM   5  0.4987  0.0933  0.7360  0.8366  0.0444     NaN     NaN     NaN   NaN
+22   lfo_bin   window            win_XGBoost   5  0.5024  0.0881  0.7399  0.8412  0.0419     NaN     NaN     NaN   NaN
+23   lfo_bin   window  delta_vs_win_LightGBM   5  0.0806     NaN     NaN     NaN     NaN -0.0676  0.2289  0.2055   4.0
+24   lfo_bin   window   delta_vs_win_XGBoost   5  0.0770     NaN     NaN     NaN     NaN -0.0887  0.2427  0.2667   4.0
+25   lfo_bin  capture           CF-MIL-Boost   5  0.6742  0.1411  0.8286  0.9535  0.0245     NaN     NaN     NaN   NaN
+26   lfo_bin  capture           win_LightGBM   5  0.5555  0.0939  0.7437  0.9320  0.0215     NaN     NaN     NaN   NaN
+27   lfo_bin  capture            win_XGBoost   5  0.5591  0.0953  0.7430  0.9379  0.0243     NaN     NaN     NaN   NaN
+28   lfo_bin  capture  delta_vs_win_LightGBM   5  0.1188     NaN     NaN     NaN     NaN -0.1069  0.3445  0.2178   4.0
+29   lfo_bin  capture   delta_vs_win_XGBoost   5  0.1151     NaN     NaN     NaN     NaN -0.1013  0.3315  0.2137   4.0
+30   lfo_cat   window           CF-MIL-Boost   5  0.5858  0.0377  0.6216  0.9174  0.0144     NaN     NaN     NaN   NaN
+31   lfo_cat   window           win_LightGBM   5  0.4335  0.0713  0.4656  0.8369  0.0202     NaN     NaN     NaN   NaN
+32   lfo_cat   window            win_XGBoost   5  0.4393  0.0646  0.4709  0.8399  0.0211     NaN     NaN     NaN   NaN
+33   lfo_cat   window  delta_vs_win_LightGBM   5  0.1523     NaN     NaN     NaN     NaN -0.0113  0.3160  0.0610   5.0
+34   lfo_cat   window   delta_vs_win_XGBoost   5  0.1466     NaN     NaN     NaN     NaN -0.0048  0.2979  0.0548   5.0
+35   lfo_cat  capture           CF-MIL-Boost   5  0.7028  0.0342  0.6936  0.9620  0.0103     NaN     NaN     NaN   NaN
+36   lfo_cat  capture           win_LightGBM   5  0.4585  0.0805  0.4331  0.9182  0.0249     NaN     NaN     NaN   NaN
+37   lfo_cat  capture            win_XGBoost   5  0.4550  0.0779  0.4352  0.9233  0.0215     NaN     NaN     NaN   NaN
+38   lfo_cat  capture  delta_vs_win_LightGBM   5  0.2443     NaN     NaN     NaN     NaN  0.0621  0.4265  0.0204   5.0
+39   lfo_cat  capture   delta_vs_win_XGBoost   5  0.2478     NaN     NaN     NaN     NaN  0.0808  0.4147  0.0146   5.0
+40  loco_bin   window           CF-MIL-Boost   4  0.3828  0.1426  0.6769  0.7718  0.0838     NaN     NaN     NaN   NaN
+41  loco_bin   window           win_LightGBM   4  0.3025  0.1933  0.6284  0.7321  0.0928     NaN     NaN     NaN   NaN
+42  loco_bin   window            win_XGBoost   4  0.2962  0.1862  0.6239  0.7306  0.0900     NaN     NaN     NaN   NaN
+43  loco_bin   window  delta_vs_win_LightGBM   4  0.0803     NaN     NaN     NaN     NaN -0.1181  0.2787  0.2881   4.0
+44  loco_bin   window   delta_vs_win_XGBoost   4  0.0866     NaN     NaN     NaN     NaN -0.1439  0.3171  0.3178   4.0
+45  loco_bin  capture           CF-MIL-Boost   4  0.4328  0.1535  0.6748  0.8424  0.0740     NaN     NaN     NaN   NaN
+46  loco_bin  capture           win_LightGBM   4  0.3380  0.2267  0.6030  0.8110  0.0980     NaN     NaN     NaN   NaN
+47  loco_bin  capture            win_XGBoost   4  0.3112  0.2679  0.5990  0.8143  0.1014     NaN     NaN     NaN   NaN
+48  loco_bin  capture  delta_vs_win_LightGBM   4  0.0948     NaN     NaN     NaN     NaN -0.2807  0.4704  0.4804   2.0
+49  loco_bin  capture   delta_vs_win_XGBoost   4  0.1217     NaN     NaN     NaN     NaN -0.2798  0.5231  0.4060   3.0
+
+LOCO per fold
+                     auc               ...          mcc            
+arm         CF-MIL-Boost win_LightGBM  ... win_LightGBM win_XGBoost
+rep level                              ...                         
+0   capture        0.809        0.726  ...        0.099       0.050
+    window         0.737        0.666  ...        0.124       0.113
+1   capture        0.782        0.783  ...        0.250       0.151
+    window         0.687        0.678  ...        0.191       0.225
+2   capture        0.828        0.783  ...        0.367       0.394
+    window         0.779        0.718  ...        0.335       0.295
+3   capture        0.950        0.952  ...        0.636       0.650
+    window         0.884        0.867  ...        0.561       0.552
+
+[8 rows x 6 columns]
+
+control main_bin
+          mean     std  count
+H   W                        
+300 60  0.4984  0.0015     10
+
+control lfo_bin
+          mean     std  count
+H   W                        
+300 60  0.4988  0.0012      5
+
+control loco_bin
+          mean     std  count
+H   W                        
+300 60  0.4987  0.0016      4
+
+control sens_bin
+           mean     std  count
+H   W                         
+120 60   0.4978  0.0011      2
+300 30   0.4950  0.0004      2
+    120  0.4977  0.0019      2
+600 60   0.4987  0.0017      2
+
+control nested_bin
+         mean    std  count
+H   W                      
+300 60  0.498  0.001      5
+
+nested bin
+  task    level  n  nested  nested_sd  ...  d_vs_lgb      lo      hi       p  wins
+0  bin   window  5  0.6839     0.0260  ...    0.1319  0.0834  0.1804  0.0016     5
+1  bin  capture  5  0.7929     0.0262  ...    0.1622  0.0654  0.2591  0.0097     5
+
+[2 rows x 12 columns]
+selected stage-1 configs: {'{"reg_lambda": 1, "num_leaves": 63, "min_child_samples": 100, "learning_rate": 0.05, "colsample_bytree": 0.6}': 1, '{"reg_lambda": 0, "num_leaves": 127, "min_child_samples": 20, "learning_rate": 0.05, "colsample_bytree": 0.8}': 1, '{"reg_lambda": 1, "num_leaves": 63, "min_child_samples": 20, "learning_rate": 0.1, "colsample_bytree": 0.6}': 1, '{"reg_lambda": 1, "num_leaves": 127, "min_child_samples": 20, "learning_rate": 0.1, "colsample_bytree": 0.8}': 1, '{"reg_lambda": 0, "num_leaves": 31, "min_child_samples": 20, "learning_rate": 0.05, "colsample_bytree": 0.8}': 1}
+
+sensitivity (3 reps)
+arm              CF-MIL-Boost  win_LightGBM
+H   W   level                              
+120 60  capture         0.749         0.601
+        window          0.650         0.548
+300 30  capture         0.760         0.594
+        window          0.598         0.487
+    60  capture         0.790         0.606
+        window          0.671         0.542
+    120 capture         0.768         0.650
+        window          0.702         0.605
+600 60  capture         0.922         0.782
+        window          0.717         0.637
+H    W  
+120  60     0.498
+300  30     0.495
+     60     0.498
+     120    0.498
+600  60     0.499
+Name: auc, dtype: float64
+
+timing bin
+             train_s         infer_ms_per_window       
+                mean     std                mean    std
+arm                                                    
+CF-MIL-Boost   64.83  12.977               4.452  3.106
+win_LightGBM   18.03   1.546               0.615  0.031
+win_XGBoost    27.35   1.893               0.603  0.037
+
+timing cat
+             train_s         infer_ms_per_window       
+                mean     std                mean    std
+arm                                                    
+CF-MIL-Boost  222.02  39.370              20.241  4.186
+win_LightGBM   46.22   3.424               0.662  0.015
+win_XGBoost   100.92   7.061               0.604  0.054
+
+deep bin
+                   mcc               ... infer_ms_per_window             
+                  mean    std count  ...                mean    std count
+level   arm                          ...                                 
+capture AttnMIL  0.542  0.056    10  ...               0.052  0.092    10
+        BiGRU    0.506  0.058    10  ...               0.092  0.015    10
+window  AttnMIL  0.381  0.020    10  ...               0.052  0.092    10
+        BiGRU    0.377  0.020    10  ...               0.092  0.015    10
+
+[4 rows x 15 columns]
+  task    level      arm   n       d      lo      hi    p  wins
+0  bin   window  AttnMIL  10  0.2884  0.2528  0.3240  0.0    10
+1  bin   window    BiGRU  10  0.2920  0.2469  0.3372  0.0    10
+2  bin  capture  AttnMIL  10  0.2445  0.1716  0.3174  0.0    10
+3  bin  capture    BiGRU  10  0.2810  0.1948  0.3673  0.0    10
+
+deep cat
+                   mcc               ... infer_ms_per_window             
+                  mean    std count  ...                mean    std count
+level   arm                          ...                                 
+capture AttnMIL  0.339  0.106     5  ...               0.022  0.003     5
+        BiGRU    0.439  0.110     5  ...               0.082  0.013     5
+window  AttnMIL  0.211  0.041     5  ...               0.022  0.003     5
+        BiGRU    0.245  0.039     5  ...               0.082  0.013     5
+
+[4 rows x 15 columns]
+Empty DataFrame
+Columns: []
+Index: []
+
+TPR@FPR bin 10 reps
+                       tpr1          tpr5         ...    rec           fpr       
+                       mean    std   mean    std  ...   mean    std   mean    std
+level   arm                                       ...                            
+capture CF-MIL-Boost  0.648  0.120  0.849  0.035  ...  0.782  0.034  0.028  0.010
+        win_LightGBM  0.564  0.045  0.751  0.040  ...  0.499  0.061  0.007  0.004
+        win_XGBoost   0.542  0.049  0.760  0.023  ...  0.493  0.063  0.009  0.003
+window  CF-MIL-Boost  0.496  0.062  0.714  0.023  ...  0.751  0.030  0.073  0.017
+        win_LightGBM  0.391  0.029  0.540  0.030  ...  0.528  0.046  0.046  0.012
+        win_XGBoost   0.381  0.031  0.541  0.029  ...  0.529  0.039  0.047  0.011
+
+[6 rows x 10 columns]
+
+per-class cat 5 reps
+                           prec    rec     f1
+level   cls arm                              
+capture 0   CF-MIL-Boost  0.795  0.552  0.648
+            win_LightGBM  0.893  0.171  0.283
+            win_XGBoost   0.805  0.133  0.219
+        1   CF-MIL-Boost  0.943  0.987  0.964
+            win_LightGBM  0.877  0.996  0.933
+            win_XGBoost   0.875  0.996  0.932
+        2   CF-MIL-Boost  0.971  0.970  0.970
+            win_LightGBM  0.955  0.650  0.769
+            win_XGBoost   0.957  0.650  0.764
+        3   CF-MIL-Boost  0.829  0.855  0.838
+            win_LightGBM  0.811  0.591  0.683
+            win_XGBoost   0.826  0.609  0.700
+        4   CF-MIL-Boost  0.740  0.391  0.509
+            win_LightGBM  0.439  0.100  0.161
+            win_XGBoost   0.453  0.100  0.161
+window  0   CF-MIL-Boost  0.629  0.539  0.578
+            win_LightGBM  0.440  0.212  0.282
+            win_XGBoost   0.465  0.227  0.300
+        1   CF-MIL-Boost  0.937  0.943  0.940
+            win_LightGBM  0.885  0.965  0.923
+            win_XGBoost   0.886  0.966  0.924
+        2   CF-MIL-Boost  0.820  0.883  0.849
+            win_LightGBM  0.877  0.576  0.693
+            win_XGBoost   0.853  0.591  0.692
+        3   CF-MIL-Boost  0.718  0.789  0.750
+            win_LightGBM  0.693  0.603  0.644
+            win_XGBoost   0.717  0.610  0.659
+        4   CF-MIL-Boost  0.451  0.379  0.408
+            win_LightGBM  0.352  0.180  0.237
+            win_XGBoost   0.352  0.180  0.235
+
+SHAP bin: score-statistics share 0.264 ± 0.033 over 10 reps; score feats 5 of 246
+  max_0                                         0.7222
+  std_0                                         0.5603
+  mean_0                                        0.5218
+  q90_0                                         0.3061
+  max:Fwd IAT Max                               0.1535
+  mean:Fwd PSH Flags                            0.1205
+  max:Fwd Packet Length Mean                    0.1163
+  max:Active Max                                0.1132
+  max:Bwd IAT Total                             0.1077
+  max:Min Packet Length                         0.1010
+  max:Bwd Packet Length Min                     0.0930
+  mean:Destination Port                         0.0924
+  max:Active Std                                0.0898
+  median_0                                      0.0844
+  mean:Init_Win_bytes_forward                   0.0738
+
+SHAP cat: score-statistics share 0.449 ± 0.044 over 5 reps; score feats 25 of 266
+  mean_2                                        1.1580
+  std_1                                         0.8834
+  q90_2                                         0.7275
+  mean_0                                        0.7211
+  max_1                                         0.5719
+  max_2                                         0.5613
+  std_2                                         0.5242
+  max_4                                         0.4505
+  median_0                                      0.3836
+  max_3                                         0.3612
+  mean_4                                        0.3346
+  max:Bwd Packet Length Min                     0.3319
+  max_0                                         0.3129
+  mean_1                                        0.2989
+  std_4                                         0.2941

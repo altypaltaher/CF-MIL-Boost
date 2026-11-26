@@ -24,7 +24,7 @@ HORIZON = 300      # only the first 5 min of every capture: malware captures run
 CAP = 150          # max training flows sampled per capture (all models, flow level)
 CAP_SMALL = 50     # AdaBoost / GBM flow-level budget
 SEED = 1000 + REP
-D = pd.read_parquet(W + 'ctx_flows.parquet'); D = D[D.t < HORIZON].reset_index(drop=True)
+D = pd.read_parquet(W + 'ctx_flows.parquet', filters=[('t', '<', HORIZON)]).reset_index(drop=True)
 FEAT = [c for c in D.columns if c not in ('t', 'cid', 'cat', 'fam') and not c.startswith('ctx_')]
 CTX = [c for c in D.columns if c.startswith('ctx_')]
 X = np.array(D[FEAT + CTX].to_numpy(np.float32), copy=True); X[~np.isfinite(X)] = np.nan

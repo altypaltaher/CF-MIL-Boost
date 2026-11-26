@@ -1,0 +1,20 @@
+{
+ "n_flows": 2616572,
+ "n_captures": 2126,
+ "auc_elapsed_time_full": 0.877109669310756,
+ "auc_elapsed_time_300s": 0.4940924638254843,
+ "n_flows_300s": 1178483,
+ "median_capture_length_s": {
+  "Adware": 2895.0,
+  "Benign": 707.0,
+  "Ransomware": 3319.0,
+  "SMSmalware": 2633.0,
+  "Scareware": 2827.0
+ },
+ "captures_covering_300s": 2122,
+ "captures_total": 2126,
+ "distinct_flow_vectors": 2498376,
+ "distinct_vectors_with_conflicting_labels_5class": 61549,
+ "flows_with_conflicting_vector_5class": 143263,
+ "distinct_vectors_with_conflicting_labels_binary": 80
+}

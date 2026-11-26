@@ -27,7 +27,8 @@ ax.grid(axis='x',color=GRID,lw=0.6); ax.set_axisbelow(True)
 # (b) time-only AUC
 ax=axs[1]; ctl=vals('bin','window','CONTROL_time_index_only','auc')
 lab=['Flow time\n(full)','Flow time\n(300 s)','Window\nindex']
-v=[0.877,0.494,ctl.mean()]; e=[0,0,stats.t.ppf(.975,len(ctl)-1)*ctl.std(ddof=1)/np.sqrt(len(ctl))]
+RS=json.load(open('repro_stats.json'))  # produced by repro_stats.py
+v=[RS['auc_elapsed_time_full'],RS['auc_elapsed_time_300s'],ctl.mean()]; e=[0,0,stats.t.ppf(.975,len(ctl)-1)*ctl.std(ddof=1)/np.sqrt(len(ctl))]
 ax.bar(range(3),v,0.6,color=[ORA,BLUE,BLUE],alpha=0.85); ax.errorbar(2,v[2],e[2],color=INK,capsize=2,lw=0.8)
 ax.axhline(0.5,color=Q,ls=':',lw=0.9); ax.text(-0.45,0.51,'chance',fontsize=6.3,color=Q,ha='left')
 for i,x in enumerate(v): ax.text(i,x+(0.02 if i<2 else 0.035),f'{x:.3f}',ha='center',fontsize=6.8)
