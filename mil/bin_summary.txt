@@ -1,0 +1,122 @@
+                                    mcc                   f1m                   auc              
+                                   mean     std count    mean     std count    mean     std count
+level   arm                                                                                      
+capture HYBRID_scores+raw        0.7868  0.0246    10  0.8921  0.0123    10  0.9651  0.0070    10
+        HYBRID_scores_only       0.6602  0.0425    10  0.8290  0.0222    10  0.9281  0.0100    10
+        ada_flow+MIL             0.3186  0.0666    10  0.6535  0.0366    10  0.7368  0.0438    10
+        ada_flow+meanvote        0.2504  0.0612    10  0.5665  0.0646    10  0.7364  0.0403    10
+        gbm_flow+MIL             0.5534  0.0344    10  0.7728  0.0172    10  0.8810  0.0186    10
+        gbm_flow+meanvote        0.4305  0.0736    10  0.7023  0.0535    10  0.8380  0.0234    10
+        lgb_ctx+MIL              0.4197  0.0516    10  0.7040  0.0252    10  0.8021  0.0237    10
+        lgb_ctx+MIL-stack        0.5325  0.0425    10  0.7445  0.0307    10  0.8655  0.0205    10
+        lgb_ctx+meanvote         0.3997  0.0732    10  0.6720  0.0436    10  0.7771  0.0205    10
+        lgb_flow+MIL             0.6489  0.0346    10  0.8220  0.0174    10  0.9313  0.0142    10
+        lgb_flow+meanvote        0.5918  0.0407    10  0.7899  0.0224    10  0.9000  0.0133    10
+        win_AdaBoost             0.5626  0.1286    10  0.7604  0.0943    10  0.8472  0.1204    10
+        win_GBM                  0.6442  0.0398    10  0.7995  0.0282    10  0.9433  0.0130    10
+        win_LightGBM             0.6405  0.0406    10  0.7945  0.0284    10  0.9448  0.0097    10
+        win_XGBoost              0.6302  0.0492    10  0.7900  0.0309    10  0.9476  0.0134    10
+        xgb_ctx+MIL              0.4222  0.0621    10  0.7060  0.0312    10  0.7994  0.0317    10
+        xgb_ctx+meanvote         0.3957  0.0562    10  0.6701  0.0453    10  0.7753  0.0275    10
+        xgb_flow+MIL             0.6686  0.0300    10  0.8317  0.0158    10  0.9335  0.0126    10
+        xgb_flow+meanvote        0.5966  0.0350    10  0.7892  0.0223    10  0.9019  0.0110    10
+flow    ada_flow                 0.0495  0.0144    10  0.4569  0.0039    10  0.5554  0.0137    10
+        gbm_flow                 0.1120  0.0209    10  0.4850  0.0133    10  0.5862  0.0136    10
+        lgb_ctx                  0.2598  0.0400    10  0.5802  0.0287    10  0.6862  0.0237    10
+        lgb_flow                 0.1647  0.0247    10  0.5135  0.0170    10  0.6234  0.0083    10
+        lgb_flow_RANDOMsplit     0.2237  0.0045    10  0.5333  0.0038    10  0.6597  0.0029    10
+        xgb_ctx                  0.2439  0.0278    10  0.5679  0.0244    10  0.6819  0.0261    10
+        xgb_flow                 0.1706  0.0200    10  0.5159  0.0127    10  0.6236  0.0086    10
+window  CONTROL_time_index_only     NaN     NaN     0     NaN     NaN     0  0.4984  0.0015    10
+        HYBRID_scores+raw        0.6691  0.0254    10  0.8339  0.0127    10  0.9222  0.0106    10
+        HYBRID_scores_only       0.5272  0.0341    10  0.7578  0.0202    10  0.8685  0.0117    10
+        ada_flow+MIL             0.2189  0.0445    10  0.5929  0.0310    10  0.6774  0.0340    10
+        ada_flow+meanvote        0.2072  0.0415    10  0.5453  0.0476    10  0.6718  0.0335    10
+        gbm_flow+MIL             0.4046  0.0301    10  0.6912  0.0155    10  0.8090  0.0175    10
+        gbm_flow+meanvote        0.3643  0.0400    10  0.6743  0.0286    10  0.7746  0.0226    10
+        lgb_ctx+MIL              0.3267  0.0369    10  0.6503  0.0166    10  0.7545  0.0233    10
+        lgb_ctx+MIL-stack        0.4441  0.0263    10  0.7172  0.0161    10  0.7971  0.0183    10
+        lgb_ctx+meanvote         0.3471  0.0601    10  0.6537  0.0347    10  0.7373  0.0206    10
+        lgb_flow+MIL             0.5322  0.0215    10  0.7586  0.0105    10  0.8780  0.0137    10
+        lgb_flow+meanvote        0.4966  0.0378    10  0.7446  0.0190    10  0.8476  0.0160    10
+        win_AdaBoost             0.4057  0.0345    10  0.6811  0.0429    10  0.7600  0.0965    10
+        win_GBM                  0.5269  0.0229    10  0.7600  0.0129    10  0.8496  0.0155    10
+        win_LightGBM             0.5521  0.0229    10  0.7683  0.0143    10  0.8590  0.0135    10
+        win_XGBoost              0.5500  0.0240    10  0.7677  0.0132    10  0.8601  0.0138    10
+        xgb_ctx+MIL              0.3256  0.0446    10  0.6500  0.0217    10  0.7513  0.0296    10
+        xgb_ctx+meanvote         0.3440  0.0476    10  0.6539  0.0354    10  0.7360  0.0252    10
+        xgb_flow+MIL             0.5483  0.0205    10  0.7670  0.0101    10  0.8809  0.0115    10
+        xgb_flow+meanvote        0.5044  0.0298    10  0.7455  0.0144    10  0.8495  0.0132    10
+      level metric            baseline   n  proposed    base  diff_pp   W  L    p_NB  p_wil
+0    window    mcc        win_LightGBM  10    0.6691  0.5521  11.7023  10  0  0.0000  0.002
+1    window    mcc         win_XGBoost  10    0.6691  0.5500  11.9151  10  0  0.0000  0.002
+2    window    mcc        win_AdaBoost  10    0.6691  0.4057  26.3441  10  0  0.0000  0.002
+3    window    mcc             win_GBM  10    0.6691  0.5269  14.2209  10  0  0.0000  0.002
+4    window    mcc   lgb_flow+meanvote  10    0.6691  0.4966  17.2528  10  0  0.0002  0.002
+5    window    mcc   xgb_flow+meanvote  10    0.6691  0.5044  16.4691  10  0  0.0000  0.002
+6    window    mcc   ada_flow+meanvote  10    0.6691  0.2072  46.1939  10  0  0.0000  0.002
+7    window    mcc   gbm_flow+meanvote  10    0.6691  0.3643  30.4779  10  0  0.0000  0.002
+8    window    mcc        lgb_flow+MIL  10    0.6691  0.5322  13.6874  10  0  0.0002  0.002
+9    window    mcc        xgb_flow+MIL  10    0.6691  0.5483  12.0860  10  0  0.0000  0.002
+10   window    mcc         lgb_ctx+MIL  10    0.6691  0.3267  34.2423  10  0  0.0000  0.002
+11   window    mcc  HYBRID_scores_only  10    0.6691  0.5272  14.1967  10  0  0.0000  0.002
+12   window    auc        win_LightGBM  10    0.9222  0.8590   6.3211  10  0  0.0000  0.002
+13   window    auc         win_XGBoost  10    0.9222  0.8601   6.2126  10  0  0.0000  0.002
+14   window    auc        win_AdaBoost  10    0.9222  0.7600  16.2261  10  0  0.0148  0.002
+15   window    auc             win_GBM  10    0.9222  0.8496   7.2650  10  0  0.0000  0.002
+16   window    auc   lgb_flow+meanvote  10    0.9222  0.8476   7.4651  10  0  0.0000  0.002
+17   window    auc   xgb_flow+meanvote  10    0.9222  0.8495   7.2689  10  0  0.0000  0.002
+18   window    auc   ada_flow+meanvote  10    0.9222  0.6718  25.0375  10  0  0.0000  0.002
+19   window    auc   gbm_flow+meanvote  10    0.9222  0.7746  14.7622  10  0  0.0000  0.002
+20   window    auc        lgb_flow+MIL  10    0.9222  0.8780   4.4183  10  0  0.0001  0.002
+21   window    auc        xgb_flow+MIL  10    0.9222  0.8809   4.1356  10  0  0.0001  0.002
+22   window    auc         lgb_ctx+MIL  10    0.9222  0.7545  16.7728  10  0  0.0000  0.002
+23   window    auc  HYBRID_scores_only  10    0.9222  0.8685   5.3717  10  0  0.0000  0.002
+24   window    f1m        win_LightGBM  10    0.8339  0.7683   6.5556  10  0  0.0000  0.002
+25   window    f1m         win_XGBoost  10    0.8339  0.7677   6.6148  10  0  0.0001  0.002
+26   window    f1m        win_AdaBoost  10    0.8339  0.6811  15.2805  10  0  0.0004  0.002
+27   window    f1m             win_GBM  10    0.8339  0.7600   7.3864  10  0  0.0000  0.002
+28   window    f1m   lgb_flow+meanvote  10    0.8339  0.7446   8.9263  10  0  0.0002  0.002
+29   window    f1m   xgb_flow+meanvote  10    0.8339  0.7455   8.8369  10  0  0.0000  0.002
+30   window    f1m   ada_flow+meanvote  10    0.8339  0.5453  28.8590  10  0  0.0000  0.002
+31   window    f1m   gbm_flow+meanvote  10    0.8339  0.6743  15.9588  10  0  0.0000  0.002
+32   window    f1m        lgb_flow+MIL  10    0.8339  0.7586   7.5310  10  0  0.0001  0.002
+33   window    f1m        xgb_flow+MIL  10    0.8339  0.7670   6.6869  10  0  0.0000  0.002
+34   window    f1m         lgb_ctx+MIL  10    0.8339  0.6503  18.3549  10  0  0.0000  0.002
+35   window    f1m  HYBRID_scores_only  10    0.8339  0.7578   7.6090  10  0  0.0000  0.002
+36  capture    mcc        win_LightGBM  10    0.7868  0.6405  14.6348  10  0  0.0007  0.002
+37  capture    mcc         win_XGBoost  10    0.7868  0.6302  15.6583  10  0  0.0013  0.002
+38  capture    mcc        win_AdaBoost  10    0.7868  0.5626  22.4227  10  0  0.0221  0.002
+39  capture    mcc             win_GBM  10    0.7868  0.6442  14.2660  10  0  0.0011  0.002
+40  capture    mcc   lgb_flow+meanvote  10    0.7868  0.5918  19.5063  10  0  0.0001  0.002
+41  capture    mcc   xgb_flow+meanvote  10    0.7868  0.5966  19.0190  10  0  0.0000  0.002
+42  capture    mcc   ada_flow+meanvote  10    0.7868  0.2504  53.6453  10  0  0.0000  0.002
+43  capture    mcc   gbm_flow+meanvote  10    0.7868  0.4305  35.6358  10  0  0.0000  0.002
+44  capture    mcc        lgb_flow+MIL  10    0.7868  0.6489  13.7920  10  0  0.0007  0.002
+45  capture    mcc        xgb_flow+MIL  10    0.7868  0.6686  11.8192  10  0  0.0005  0.002
+46  capture    mcc         lgb_ctx+MIL  10    0.7868  0.4197  36.7141  10  0  0.0000  0.002
+47  capture    mcc  HYBRID_scores_only  10    0.7868  0.6602  12.6670  10  0  0.0003  0.002
+48  capture    auc        win_LightGBM  10    0.9651  0.9448   2.0300  10  0  0.0014  0.002
+49  capture    auc         win_XGBoost  10    0.9651  0.9476   1.7499  10  0  0.0163  0.002
+50  capture    auc        win_AdaBoost  10    0.9651  0.8472  11.7837  10  0  0.1299  0.002
+51  capture    auc             win_GBM  10    0.9651  0.9433   2.1815  10  0  0.0070  0.002
+52  capture    auc   lgb_flow+meanvote  10    0.9651  0.9000   6.5092  10  0  0.0000  0.002
+53  capture    auc   xgb_flow+meanvote  10    0.9651  0.9019   6.3171  10  0  0.0000  0.002
+54  capture    auc   ada_flow+meanvote  10    0.9651  0.7364  22.8722  10  0  0.0000  0.002
+55  capture    auc   gbm_flow+meanvote  10    0.9651  0.8380  12.7052  10  0  0.0000  0.002
+56  capture    auc        lgb_flow+MIL  10    0.9651  0.9313   3.3793  10  0  0.0010  0.002
+57  capture    auc        xgb_flow+MIL  10    0.9651  0.9335   3.1603  10  0  0.0007  0.002
+58  capture    auc         lgb_ctx+MIL  10    0.9651  0.8021  16.2936  10  0  0.0000  0.002
+59  capture    auc  HYBRID_scores_only  10    0.9651  0.9281   3.6985  10  0  0.0000  0.002
+60  capture    f1m        win_LightGBM  10    0.8921  0.7945   9.7565  10  0  0.0004  0.002
+61  capture    f1m         win_XGBoost  10    0.8921  0.7900  10.2087  10  0  0.0007  0.002
+62  capture    f1m        win_AdaBoost  10    0.8921  0.7604  13.1719  10  0  0.0497  0.002
+63  capture    f1m             win_GBM  10    0.8921  0.7995   9.2611  10  0  0.0009  0.002
+64  capture    f1m   lgb_flow+meanvote  10    0.8921  0.7899  10.2209  10  0  0.0001  0.002
+65  capture    f1m   xgb_flow+meanvote  10    0.8921  0.7892  10.2898  10  0  0.0001  0.002
+66  capture    f1m   ada_flow+meanvote  10    0.8921  0.5665  32.5609  10  0  0.0000  0.002
+67  capture    f1m   gbm_flow+meanvote  10    0.8921  0.7023  18.9785  10  0  0.0001  0.002
+68  capture    f1m        lgb_flow+MIL  10    0.8921  0.8220   7.0078  10  0  0.0008  0.002
+69  capture    f1m        xgb_flow+MIL  10    0.8921  0.8317   6.0336  10  0  0.0006  0.002
+70  capture    f1m         lgb_ctx+MIL  10    0.8921  0.7040  18.8088  10  0  0.0000  0.002
+71  capture    f1m  HYBRID_scores_only  10    0.8921  0.8290   6.3118  10  0  0.0007  0.002

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+ctx_flows.parquet
+ctx_captures.csv
+data/
+mil/*_r[0-9]*_*.npz
+mil/done.txt
+mil/loop.log
+!mil/pred_*.npz

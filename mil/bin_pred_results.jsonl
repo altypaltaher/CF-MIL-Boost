@@ -1,0 +1,9 @@
+{"level": "window", "arm": "HYBRID_scores+raw", "n_units": 2125, "cfg": "{\"num_leaves\": 31, \"learning_rate\": 0.05, \"min_child_samples\": 30}", "mcc": 0.6936920002484721, "f1m": 0.8468455670604899, "auc": 0.9272983506741159, "task": "bin", "rep": 0}
+{"level": "capture", "arm": "HYBRID_scores+raw", "n_units": 426, "mcc": 0.817314886328127, "f1m": 0.9067595666289716, "auc": 0.9764360876315336, "task": "bin", "rep": 0}
+{"level": "window", "arm": "HYBRID_scores_only", "n_units": 2125, "cfg": "{\"num_leaves\": 63, \"learning_rate\": 0.05, \"min_child_samples\": 10}", "mcc": 0.5555710380600312, "f1m": 0.7747868185901985, "auc": 0.8638232801400644, "task": "bin", "rep": 0}
+{"level": "capture", "arm": "HYBRID_scores_only", "n_units": 426, "mcc": 0.6773525106569986, "f1m": 0.8384014820696044, "auc": 0.9383474210798689, "task": "bin", "rep": 0}
+{"level": "window", "arm": "CONTROL_time_index_only", "auc": 0.4988088666599757, "task": "bin", "rep": 0}
+{"level": "window", "arm": "win_LightGBM", "n_units": 2125, "mcc": 0.5560481858043936, "f1m": 0.7709120239219389, "auc": 0.8635375196547457, "cfg": "{\"num_leaves\": 31, \"learning_rate\": 0.05, \"min_child_samples\": 10}", "secs": 17, "task": "bin", "rep": 0}
+{"level": "capture", "arm": "win_LightGBM", "n_units": 426, "mcc": 0.6321277531226998, "f1m": 0.788544544198895, "auc": 0.9456270484733482, "cfg": "{\"num_leaves\": 31, \"learning_rate\": 0.05, \"min_child_samples\": 10}", "secs": 17, "task": "bin", "rep": 0}
+{"level": "window", "arm": "win_XGBoost", "n_units": 2125, "mcc": 0.535675496552201, "f1m": 0.7608789738747246, "auc": 0.868990666086782, "cfg": "{\"d\": 6, \"lr\": 0.05}", "secs": 33, "task": "bin", "rep": 0}
+{"level": "capture", "arm": "win_XGBoost", "n_units": 426, "mcc": 0.6321277531226998, "f1m": 0.788544544198895, "auc": 0.9555287217526306, "cfg": "{\"d\": 6, \"lr\": 0.05}", "secs": 33, "task": "bin", "rep": 0}
